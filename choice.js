@@ -1,7 +1,7 @@
 export function choice(element) {
     const edu = element.querySelector('#education');
 
-    edu.addEventListener('click', (e) => {
+    edu.addEventListener('click', (e) => {`
         e.prevenDefault();
         var msg = document.getElementById("education")
         msg.textContent += "**Education**
@@ -32,5 +32,6 @@ export function choice(element) {
         
         *Continuing Education*
         - Regularly attend conferences and seminars to stay updated on the latest developments in water magic and healing techniques."
+    `
     })
 }
