@@ -17,7 +17,7 @@ document.querySelector('#app').innerHTML = `
           
           <button id="education">Education</button>
           <button id="work experience">Work Experience</button>
-          <p id="education"></p>
+          <p id="edu"></p>
           `
 
 choice(document.querySelector('#app'))

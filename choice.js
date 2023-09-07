@@ -1,10 +1,11 @@
 export function choice(element) {
     const edu = element.querySelector('#education');
 
-    edu.addEventListener('click', (e) => {`
-        e.prevenDefault();
-        var msg = document.getElementById("education")
-        msg.textContent += "**Education**
+    edu.addEventListener('click', (e) => {
+        console.log('Yo');
+        e.preventDefault();
+        var msg = document.getElementById("edu")
+        msg.textContent += `**Education**
 
         *School of Aquatic Mysteries*
         - Location: Crystal Depths, Aqualoria
@@ -31,7 +32,9 @@ export function choice(element) {
         - Commendation for Outstanding Dedication to Healing Arts [Insert Year]
         
         *Continuing Education*
-        - Regularly attend conferences and seminars to stay updated on the latest developments in water magic and healing techniques."
-    `
+        - Regularly attend conferences and seminars to stay updated on the latest developments in water magic and healing techniques.`
+
+        
+        
     })
 }
