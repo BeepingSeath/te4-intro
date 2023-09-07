@@ -1,0 +1,285 @@
+[
+    {
+        "id": 0,
+        "description": "I am Seth, a dedicated and compassionate water slime Healer with a profound connection to the element of water. In the enchanting realm of Aqualoria, I have honed my unique magical abilities to bring healing and solace to those in need. With a deep understanding of aquatic magic and a commitment to the well-being of all, I have established myself as a trusted and skilled healer in our mystical world.",
+        "options": [
+            {
+                "text": "Education",
+                "target": 1
+            },
+            {
+                "text": "Work Experience",
+                "target": 2
+            },
+            {
+                "text": "Skills",
+                "target": 3
+            },
+            {
+                "text": "Interests",
+                "target": 4
+            },
+            {
+                "text": "About Me",
+                "target": 5
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "description": "[Education Shit]",
+        "options":[
+            {
+                "text": "Home",
+                "target": 0
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "description":"[Work Shit]",
+        "options":[
+            {
+                "text": "Home",
+                "target": 0
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "description": "[Skills Shit]",
+        "options":[
+            {
+                "text": "Home",
+                "target": 0
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "description": "[Interests Shit]",
+        "options": [
+            {
+                "text": "Buncha Shit",
+                "target": 6,
+                "options":[
+                    {
+                        "text": "Home",
+                        "target": 0
+                    }
+                ]
+            },
+            {
+                "text": "Buncha Shit",
+                "target": 7,
+                "options":[
+                    {
+                        "text": "Home",
+                        "target": 0
+                    }
+                ]
+            },
+            {
+                "text": "Buncha Shit",
+                "target": 8,
+                "options":[
+                    {
+                        "text": "Home",
+                        "target": 0
+                    }
+                ]
+            },
+            {
+                "text": "Buncha Shit",
+                "target": 9,
+                "options":[
+                    {
+                        "text": "Home",
+                        "target": 0
+                    }
+                ]
+            },
+            {
+                "text": "Buncha Shit",
+                "target": 10,
+                "options":[
+                    {
+                        "text": "Home",
+                        "target": 0
+                    }
+                ]
+            },
+            {
+                "text": "Buncha Shit",
+                "target": 11,
+                "options":[
+                    {
+                        "text": "Home",
+                        "target": 0
+                    }
+                ]
+            },
+            {
+                "text": "Buncha Shit",
+                "target": 12,
+                "options":[
+                    {
+                        "text": "Home",
+                        "target": 0
+                    }
+                ]
+            },
+            {
+                "text": "Buncha Shit",
+                "target": 13,
+                "options":[
+                    {
+                        "text": "Home",
+                        "target": 0
+                    }
+                ]
+            },
+            {
+                "text": "Buncha Shit",
+                "target": 14,
+                "options":[
+                    {
+                        "text": "Home",
+                        "target": 0
+                    }
+                ]
+            },
+            {
+                "text": "Buncha Shit",
+                "target": 15,
+                "options":[
+                    {
+                        "text": "Home",
+                        "target": 0
+                    }
+                ]
+            },
+            {
+                "text": "Home",
+                "target": 16,
+                "options":[
+                    {
+                        "text": "Home",
+                        "target": 0
+                    }
+                ]
+            }
+            
+        ]
+    },
+    {
+        "id": 5,
+        "description": "[About Shit]",
+        "options":[
+            {
+                "text": "Home",
+                "target": 0
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "description": "[Interests Shit]",
+        "options":[
+            {
+                "text": "Home",
+                "target": 0
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "description": "[Skills Shit]",
+        "options":[
+            {
+                "text": "Home",
+                "target": 0
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "description": "[Skills Shit]",
+        "options":[
+            {
+                "text": "Home",
+                "target": 0
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "description": "[Skills Shit]",
+        "options":[
+            {
+                "text": "Home",
+                "target": 0
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "description": "[Skills Shit]",
+        "options":[
+            {
+                "text": "Home",
+                "target": 0
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "description": "[Skills Shit]",
+        "options":[
+            {
+                "text": "Home",
+                "target": 0
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "description": "[Skills Shit]",
+        "options":[
+            {
+                "text": "Home",
+                "target": 0
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "description": "[Skills Shit]",
+        "options":[
+            {
+                "text": "Home",
+                "target": 0
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "description": "[Skills Shit]",
+        "options":[
+            {
+                "text": "Home",
+                "target": 0
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "description": "[Skills Shit]",
+        "options":[
+            {
+                "text": "Home",
+                "target": 0
+            }
+        ]
+    }
+]
