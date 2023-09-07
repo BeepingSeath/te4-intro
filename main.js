@@ -13,11 +13,18 @@ document.querySelector('#app').innerHTML = `
 
           I am Seth, a dedicated and compassionate water slime Healer with a profound connection to the element of water. In the enchanting realm of Aqualoria, I have honed my unique magical abilities to bring healing and solace to those in need. With a deep understanding of aquatic magic and a commitment to the well-being of all, I have established myself as a trusted and skilled healer in our mystical world.
 
-          Education, Work Experience, Skills, Interests, Project, About Me
+          Education, Work Experience, Skills, Interests, About Me
           
           <button id="education">Education</button>
-          <button id="work experience">Work Experience</button>
-          <p id="edu"></p>
+          <p id="education"></p>
+          <button id="workExp">Work Experience</button>
+          <p id="workExp"></p>
+          <button id="skills">Skills</button>
+          <p id="skills"></p>
+          <button id="interests">Interests</button>
+          <p id="interests"></p>
+          <button id="about">About Me</button>
+          <p id="about"></p>
           `
 
 choice(document.querySelector('#app'))
