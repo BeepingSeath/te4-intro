@@ -10,7 +10,6 @@ export function choice(element) {
     const about = element.querySelector('#about')
     let shownA = null;
 
-
     edu.addEventListener('click', (e) => {
         console.log('Yo');
         e.preventDefault();
@@ -25,7 +24,7 @@ export function choice(element) {
         *School of Aquatic Mysteries*
         - Location: Crystal Depths, Aqualoria
         - Degree Earned: Master of Water Magic
-        - Graduation Date: [Insert Graduation Year]
+        - Graduation Date: Year 370
         
         *Relevant Coursework*
         - Advanced Hydrotherapy Techniques
@@ -38,13 +37,13 @@ export function choice(element) {
         - Summary: Explored the profound connection between water magic and emotional empathy, demonstrating how the two synergize to enhance the effectiveness of healing spells.
         
         *Apprenticeship*
-        - Master Healer: [Insert Mentor's Name]
-        - Duration: [Insert Duration]
+        - Master Healer: Nereus Thalasson
+        - Duration: 15 years, Year 370 - 385
         - Description: Underwent an intensive apprenticeship with a highly skilled healer to refine practical healing skills and gain real-world experience in the Aquatic Sanctum.
         
         *Accolades*
-        - Award for Excellence in Water Magic Research [Insert Year]
-        - Commendation for Outstanding Dedication to Healing Arts [Insert Year]
+        - Award for Excellence in Water Magic Research, Year 390
+        - Commendation for Outstanding Dedication to Healing Arts, Year 368
         
         *Continuing Education*
         - Regularly attend conferences and seminars to stay updated on the latest developments in water magic and healing techniques.`
@@ -63,7 +62,7 @@ export function choice(element) {
 
         *Healing Mage*
         - *Aquatic Sanctum, Crystal Depths, Aqualoria*
-        - *Duration: [Insert Start Date] - Present*
+        - *Duration: Year 385 - Present*
         
         **Key Responsibilities and Achievements:**
         
@@ -83,7 +82,7 @@ export function choice(element) {
         
         *Healer's Apprentice*
         - *Aquatic Sanctum, Crystal Depths, Aqualoria*
-        - *Duration: [Insert Start Date] - [Insert End Date]*
+        - *Duration: Year 370 - 385*
         
         **Key Responsibilities and Achievements:**
         
@@ -94,10 +93,7 @@ export function choice(element) {
         - Conducted research projects in collaboration with senior healers, contributing to the development of new healing spells and therapies.
         
         - Honed my understanding of aquatic anatomy and physiology, deepening my knowledge of the intricate connection between water magic and the physical and emotional well-being of our aquatic community.
-        
-        *Accolades*
-        - Recognition for Outstanding Dedication and Compassion in Healing Arts [Insert Year]
-        - Commendation for Exceptional Research Contributions to Water Magic [Insert Year]`
+        `
         shownW = true;
     })
     skills.addEventListener('click', (e) => {
@@ -164,14 +160,20 @@ export function choice(element) {
         shownS = true;
     })
     interests.addEventListener('click', (e) => {
+        const aquaEco = element.querySelector('#aquaEco');
+        let shownAE = null;
+
+
         console.log('Mo');
         e.preventDefault();
         var msg = document.getElementById("interests")
         if(shownI === true){
             msg.textContent = 'Interests';
+            document.getElementById('interestsRM').style.display = 'none';
             shownI = false;
             return;
         }
+        document.getElementById('interestsRM').style.display = 'block';
         msg.textContent = `**Interests**
 
         1. **Aquatic Ecology:** Passionate about understanding the delicate balance of aquatic ecosystems and how they relate to the well-being of all underwater creatures.
@@ -194,6 +196,33 @@ export function choice(element) {
         
         10. **Coral Reef Conservation:** Advocates for the preservation of Aqualoria's stunning coral reefs and actively supports efforts to protect these vital ecosystems.`
         shownI = true;
+        
+        aquaEco.addEventListener('click', (e) => {
+            console.log('ao');
+            e.preventDefault();
+            var msg = document.getElementById("aquaEco")
+            if(shownAE === true){
+                msg.textContent = 'Aquatic Ecology';
+                shownAE = false;
+                return;
+            }
+            msg.textContent = `**Interest in Aquatic Ecology**
+
+            My fascination with aquatic ecology is not merely a passing interest; it is a deep-seated passion that has shaped my understanding of the intricate web of life in Aqualoria's underwater realm. The oceans and waterways of our fantastical world are not just bodies of water but thriving ecosystems teeming with diversity and interconnectedness. Here is a more in-depth exploration of my interest in aquatic ecology:
+            
+            **Ecological Awareness:** I am acutely aware of the delicate balance that exists within Aqualoria's aquatic ecosystems. From the shimmering kelp forests to the bustling coral reefs, each corner of our world plays a vital role in sustaining life. My interest lies in understanding the intricate relationships between different species, the cycles of life and death, and the impact of environmental changes on our underwater home.
+            
+            **Biodiversity:** Aqualoria is home to an astonishing array of aquatic creatures, each uniquely adapted to its environment. My fascination with aquatic ecology extends to the study of this biodiversity. I have dedicated time to observe and document the behaviors and habitats of various species, from the graceful merfolk to the elusive deep-sea denizens. This knowledge aids me in both my healing practice and my advocacy for conservation.
+            
+            **Ecosystem Health:** Just as I strive to maintain the well-being of individual patients, I am equally committed to the health of entire aquatic ecosystems. I recognize that disturbances, whether natural or caused by external factors, can disrupt the harmony of these environments. Through my understanding of aquatic ecology, I actively support initiatives to preserve and restore damaged habitats, ensuring that the interconnected web of life remains intact.
+            
+            **Holistic Healing Philosophy:** My interest in aquatic ecology has deeply influenced my approach to healing. I view my patients not in isolation but as integral parts of their ecosystems. Healing a single individual is like mending a thread in the intricate tapestry of life. By understanding the broader ecological context, I can better tailor my treatments to address not only the immediate ailment but also the long-term well-being of the individual within their ecosystem.
+            
+            **Advocacy and Education:** Beyond my healing duties, I am an advocate for the conservation of Aqualoria's natural wonders. I actively engage with community initiatives to raise awareness about the importance of preserving our aquatic ecosystems. Education plays a vital role in this endeavor, and I am committed to sharing my knowledge of aquatic ecology with others, fostering a deep appreciation for the intricate beauty of our world.
+            
+            In essence, my interest in aquatic ecology is not a separate pursuit but an integral part of my identity as a Water Slime Healer. It guides me in my quest to bring healing and harmony to the inhabitants of Aqualoria, reminding me of the profound interconnectedness that binds us all beneath the waves.`
+            shownAE = true;
+        })
     })
     about.addEventListener('click', (e) => {
         console.log('Po');
@@ -217,5 +246,6 @@ export function choice(element) {
         As I continue my journey, I remain committed to the well-being of our underwater world, nurturing the health and happiness of all its inhabitants. Through the power of water magic, the embrace of empathy, and the bonds forged in the depths of the Crystal Depths, I aspire to make Aqualoria a place of healing, harmony, and profound connection for all who call it home.`
         shownA = true;
     })
+
 
 }
