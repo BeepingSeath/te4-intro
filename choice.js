@@ -9,14 +9,17 @@ export function run (element, position = 0) {
   img.src = "./public/SlimeHealer.png"
   element.appendChild(img);
   
+  let buttonlist = document.createElement("buttonlist");
+
   choice.options.forEach((option) =>{
     let button = document.createElement("button");
     button.innerText = option.text;
     button.addEventListener("click", () => {
       run(element, option.target)
     })
-    element.appendChild(button);
+    buttonlist.appendChild(button);
   })
+  element.appendChild(buttonlist);
 
   let p = document.createElement("p");
   p.innerText = choice.description;
