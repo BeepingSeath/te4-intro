@@ -6,7 +6,7 @@ export function run (element, position = 0) {
   let choice = choices[position]
 
   const img = document.createElement("img");
-  img.src = "./public/SlimeHealer.png"
+  img.src = "./SlimeHealer.png"
   element.appendChild(img);
   
   let buttonlist = document.createElement("buttonlist");
