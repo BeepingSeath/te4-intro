@@ -5,6 +5,10 @@ export function run (element, position = 0) {
 
   let choice = choices[position]
 
+  const img = document.createElement("img");
+  img.src = "./public/SlimeHealer.png"
+  element.appendChild(img);
+  
   choice.options.forEach((option) =>{
     let button = document.createElement("button");
     button.innerText = option.text;

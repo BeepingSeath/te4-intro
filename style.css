@@ -27,6 +27,7 @@ body {
   margin: 0 auto;
   padding: 10rem;
   text-align: center;
+  display:grid;
 }
 p {
   border-radius: 1rem;
@@ -51,5 +52,9 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+img {
+  justify-self: center;
+  margin:5px;
 }
 
