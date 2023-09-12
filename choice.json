@@ -27,7 +27,7 @@
     },
     {
         "id": 1,
-        "description": "Education: First I went to the School of Aquatic Mysteries in the Crystal Depths of Aqualoria. I got a degree in Mastery of Water Magic and graduated in 370. Relevant coursework includes: \"Advanced Hydrotherapy Techniques\", \"Elemental Healing Rituals\", \"Aquatic Anatomy and Physiology\" & \"Emotional Resonance in Healing Magic\". My thesis is named: \"The Synergy of Water and Emotion: Unlocking the Healing Potential of Empathy\". Summary of Thesis: Explored the profound connection between water magic and emotional empathy, demonstrating how the two synergize to enhance the effectiveness of healing spells. I had an apprenticeship",
+        "description": "In the year 370 I graduated from the School of Aquatic Mysteries and got a degree in Mastery of Water Magic. After that I was under an apprenticeship to Master Nerus Thalasson in 15 years, 370-385. In the years after my apprenticeship I got an award for \"Excellence in Water Magic Research\"",
         "options":[
             {
                 "text": "Home",
@@ -37,7 +37,7 @@
     },
     {
         "id": 2,
-        "description":"[Work Shit]",
+        "description":"I have been working as a mage in the Aquatic Sanctum in Crystal Depths of Aqualoria since 385 and still work there. I have done research and helped patients during my work.",
         "options":[
             {
                 "text": "Home",
@@ -47,7 +47,7 @@
     },
     {
         "id": 3,
-        "description": "[Skills Shit]",
+        "description": "I am adept in several skills which includes: Water Magic Mastery, Empathy and Compassion, Healing Expertise, Collaborative Teamwork, Research and Innovation, Teaching and Mentorship, Community Outreach, Emotional Resonance, Adaptability, Attention to Detail & Communication. I am fluent in Aquatic and proficient in the common tongue.",
         "options":[
             {
                 "text": "Home",
@@ -57,7 +57,7 @@
     },
     {
         "id": 4,
-        "description": "[Interests Shit]",
+        "description": "My interests include: Aquatic Ecology, Mystical Artefacts, Holistic Healing, Magical Flora, Aquatic Music, Exploration, Teaching and Mentorship, Ancient Lore, Crystal enchantment & Coral Reef Conservation.",
         "options": [
             {
                 "text": "Aquatic Ecology",
@@ -167,7 +167,7 @@
     },
     {
         "id": 5,
-        "description": "[About Shit]",
+        "description": "I am Seth, a Water Slime Healer deeply connected to the enchanting world of Aqualoria. My journey has been one of exploration, empathy, and the unwavering pursuit of healing excellence. As a practitioner of water magic, I have not only mastered the art of mending wounds and curing ailments but have also delved into the profound connection between water and emotion.",
         "options":[
             {
                 "text": "Home",
@@ -177,7 +177,7 @@
     },
     {
         "id": 6,
-        "description": "Aquatic Ecology Shit",
+        "description": "I am acutely aware of the delicate balance that exists within Aqualoria's aquatic ecosystems. From the shimmering kelp forests to the bustling coral reefs, each corner of our world plays a vital role in sustaining life. My interest lies in understanding the intricate relationships between different species, the cycles of life and death, and the impact of environmental changes on our underwater home.",
         "options":[
             {
                 "text": "Back",
@@ -187,7 +187,7 @@
     },
     {
         "id": 7,
-        "description": "Mystical Artefacts Shit",
+        "description": "I am an avid collector of mystical artifacts, and my collection spans a wide array of objects, from ancient scrolls and enchanted crystals to intricate amulets and ornate jewelry. Each piece in my collection represents a piece of Aqualoria's magical heritage, and I take great care in cataloging, preserving, and studying them.",
         "options":[
             {
                 "text": "Back",
@@ -197,7 +197,7 @@
     },
     {
         "id": 8,
-        "description": "Holistic Healing Shit",
+        "description": "My passion for holistic healing extends to a commitment to lifelong learning. I constantly seek to expand my knowledge and skills in various healing modalities, such as energy healing, meditation, and herbalism. This dedication to continuous improvement ensures that I can offer the most comprehensive and effective healing services to my patients.",
         "options":[
             {
                 "text": "Back",
@@ -207,7 +207,7 @@
     },
     {
         "id": 9,
-        "description": "Magical Flora Shit",
+        "description": "The underwater flora of Aqualoria is unlike anything found in the world above. These plants are living conduits of magic, intertwined with the very essence of our realm. They shimmer with bioluminescence, sway with the rhythms of the tides, and exude a sense of otherworldly beauty. My interest lies in understanding their intricate properties and unlocking the secrets they hold.",
         "options":[
             {
                 "text": "Back",
@@ -217,7 +217,7 @@
     },
     {
         "id": 10,
-        "description": "Aquatic Music Shit",
+        "description": "Aqualoria's underwater world is alive with a symphony of enchanting melodies. From the hauntingly beautiful songs of merfolk to the rhythmic pulses of bioluminescent organisms, our realm's music transcends mere auditory sensations. It is an ethereal tapestry of emotions, energies, and life itself, and my interest lies in understanding, appreciating, and harmonizing with these melodies.",
         "options":[
             {
                 "text": "Back",
@@ -227,7 +227,7 @@
     },
     {
         "id": 11,
-        "description": "Exploration Shit",
+        "description": "Aqualoria is a world of endless wonders, and I have made it my mission to uncover its hidden secrets. From the bioluminescent caves of the Abyssal Abyss to the undiscovered coral gardens in the Crystal Depths, I am drawn to the uncharted depths like a siren's song. Each expedition is an opportunity to witness the beauty and mysteries that lie beneath the surface",
         "options":[
             {
                 "text": "Back",
@@ -237,7 +237,7 @@
     },
     {
         "id": 12,
-        "description": "Teaching and Mentorship Shit",
+        "description": "As a healer, I understand the importance of mentorship in guiding aspiring water mages and healers on their path. I take great joy in nurturing their skills and helping them develop their unique abilities. Witnessing their growth and seeing them become skilled healers in their own right is a rewarding experience.",
         "options":[
             {
                 "text": "Back",
@@ -247,7 +247,7 @@
     },
     {
         "id": 13,
-        "description": "Ancient Lore Shit",
+        "description": "The tales of merfolk, sea deities, and legendary sea creatures are more than mere myths; they are living legends that continue to influence our underwater world. I am drawn to these stories as they provide insights into the beliefs and values of our ancestors, as well as clues to hidden treasures and undiscovered realms.",
         "options":[
             {
                 "text": "Back",
@@ -257,7 +257,7 @@
     },
     {
         "id": 14,
-        "description": "Crystal Enchantment Shit",
+        "description": "Crystal enchantment amplifies the effectiveness of my magical rituals. Whether it's purifying water for healing baths or charging sacred objects with energy, crystals play a central role in enhancing the magic and power of these rituals. Their energies harmonize with water magic, resulting in potent and transformative experiences.",
         "options":[
             {
                 "text": "Back",
@@ -267,7 +267,7 @@
     },
     {
         "id": 15,
-        "description": "Coral Reef Conservation Shit",
+        "description": "Coral reefs are not merely collections of colorful corals; they are complex ecosystems that support an incredible diversity of marine life. My interest extends to understanding the delicate balance of these ecosystems, from the symbiotic relationships between corals and algae to the intricate food webs that depend on them.",
         "options":[
             {
                 "text": "Back",
